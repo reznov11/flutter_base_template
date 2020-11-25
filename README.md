@@ -1,4 +1,4 @@
-# easy_shop
+# Flutter Project Template
 
 A new Flutter project.
 
