@@ -12,9 +12,7 @@ class App extends StatelessWidget {
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: HomePage(
-        title: 'Flutter is amazing :)',
-      ),
+      home: HomePage(),
     );
   }
 }

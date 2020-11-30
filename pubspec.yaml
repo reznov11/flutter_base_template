@@ -24,7 +24,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
-  flutter_svg: ^0.19.1 # This version works with flutter 2.x
+  flutter_svg: ^0.19.1
+  fluttertoast: ^7.1.5
 
 dev_dependencies:
   flutter_test:
