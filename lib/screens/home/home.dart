@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
         child: BodyContent(
           title: 'Flutter is amazing :)',
         ),
-        onWillPop: onWillPop,
+        onWillPop: twiceTapAppExit,
       ),
     );
   }

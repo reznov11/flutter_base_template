@@ -3,7 +3,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 DateTime currentBackPressTime;
 
-Future<bool> onWillPop() {
+Future<bool> twiceTapAppExit() {
   DateTime now = DateTime.now();
   if (currentBackPressTime == null ||
       now.difference(currentBackPressTime) > Duration(seconds: 2)) {
